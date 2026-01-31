@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zeyadmnagi.github.io/sitemap.xml
+Sitemap: https://ZeyadMKhattab.github.io/sitemap.xml

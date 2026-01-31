@@ -5,11 +5,11 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>https://zeyadmnagi.github.io/</loc>
+  <loc>https://ZeyadMKhattab.github.io/</loc>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://zeyadmnagi.github.io/projects/</loc>
+  <loc>https://ZeyadMKhattab.github.io/projects/</loc>
   <priority>0.80</priority>
 </url>
 </urlset>
