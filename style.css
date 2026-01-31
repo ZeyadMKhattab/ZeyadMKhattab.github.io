@@ -172,6 +172,20 @@ nav.scrolled {
   animation: fadeInUp 0.8s ease;
 }
 
+.freelance-badge {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(0, 255, 0, 0.1);
+  border: 1px solid rgba(0, 255, 0, 0.3);
+  color: #00ff00;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  animation: fadeInUp 0.8s ease;
+}
+
 .hero h1 {
   font-family: "Space Grotesk", sans-serif;
   font-size: clamp(40px, 8vw, 80px);
@@ -251,6 +265,63 @@ nav.scrolled {
   background: rgba(255, 255, 255, 0.05);
   border-color: var(--primary);
   transform: translateY(-3px);
+}
+
+/* Services Section */
+.services {
+  padding: 120px 40px;
+  background: linear-gradient(
+    180deg,
+    transparent,
+    rgba(20, 20, 30, 0.3),
+    transparent
+  );
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.service-card {
+  padding: 40px 30px;
+  background: var(--card-bg);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  text-align: center;
+  transition: all 0.3s ease;
+  animation: fadeInUp 0.6s ease;
+}
+
+.service-card:hover {
+  border-color: var(--primary);
+  background: rgba(0, 217, 255, 0.05);
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 217, 255, 0.1);
+}
+
+.service-icon {
+  font-size: 48px;
+  background: var(--gradient-1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 20px;
+}
+
+.service-card h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: var(--text-primary);
+}
+
+.service-card p {
+  font-size: 16px;
+  color: var(--text-secondary);
+  line-height: 1.6;
 }
 
 /* About Section */
